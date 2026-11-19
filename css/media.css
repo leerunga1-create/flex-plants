@@ -1,0 +1,165 @@
+@media screen and (max-width: 767px) {
+
+    header {
+        flex-direction: column;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .menu li {
+        text-align: center;
+        border-top: 1px solid #ffffff30;
+        padding: 6px;
+    }
+
+    .menu li a {
+        font-size: 12px;
+    }
+
+    .hero {
+        height: 50vh;
+        min-height: 300px;
+        margin-top: 100px;
+        gap: 12px;
+
+     
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+
+    .hero .sub {
+        font-size: 10px;
+    }
+
+    .btn {
+        padding: 9px 12px;
+        font-size: 12px;
+    }
+
+    main {
+        padding: 0 15px 30px;
+    }
+
+    main section {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        min-height: 0;
+        padding: 20px;
+    }
+
+    .card .icon {
+        font-size: 35px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .price {
+        padding-top: 15px;
+    }
+
+    .step {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .step li {
+        padding: 20px;
+    }
+
+    .tags li {
+        font-size: 12px;
+        padding: 6px 9px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 180px 110px 110px;
+        gap: 10px;
+    }
+
+    .gallery .big {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .gallery .big .emoji {
+        font-size: 45px;
+    }
+
+    .gallery .emoji {
+        font-size: 30px;
+    }
+
+    .gallery h3 {
+        font-size: 16px;
+    }
+
+    #news form {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+    }
+
+    #news input {
+        flex: none;
+        width: 100%;
+    }
+
+    #news select {
+        width: 100%;
+    }
+
+    #news button {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .top-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
